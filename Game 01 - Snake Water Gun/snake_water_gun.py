@@ -4,7 +4,6 @@
 -1 for Water
 0 for Gun
 '''
-
 import random
 
 # Mapping input letters to numbers
