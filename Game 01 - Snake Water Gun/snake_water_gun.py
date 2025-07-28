@@ -1,4 +1,5 @@
 # Snake Water Gun Game
+
 '''
 1 for Snake
 -1 for Water
