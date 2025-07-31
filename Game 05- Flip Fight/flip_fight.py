@@ -2,7 +2,6 @@ import random
 
 # Mapping input
 tossDict = {'h': 'Heads', 't': 'Tails'}
-
 # Score counters
 user_score = 0
 computer_score = 0
