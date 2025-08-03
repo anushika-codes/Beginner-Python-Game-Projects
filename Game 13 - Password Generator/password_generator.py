@@ -18,3 +18,48 @@ def generate_password(length, use_upper, use_lower, use_digits, use_symbols):
 
     password = ''.join(random.choice(character_pool) for _ in range(length))
     return password
+    
+def check_strength(length, use_upper, use_lower, use_digits, use_symbols):
+    score = 0
+    if length >= 8:
+        score += 1
+    if use_upper:
+        score += 1
+    if use_lower:
+        score += 1
+    if use_digits:
+        score += 1
+    if use_symbols:
+        score += 1
+
+    if score <= 2:
+        return "Weak"
+    elif score == 3 or score == 4:
+        return "Medium"
+    else:
+        return "Strong"
+
+print("Advanced Password Generator")
+print("----------------------------")
+
+# Ask for number of passwords
+count = int(input("How many passwords do you want to generate? "))
+
+for i in range(count):
+    print(f"\nGenerating password #{i+1}")
+
+    length = int(input("Enter password length: "))
+    use_upper = input("Include uppercase letters? (y/n): ").lower() == 'y'
+    use_lower = input("Include lowercase letters? (y/n): ").lower() == 'y'
+    use_digits = input("Include digits? (y/n): ").lower() == 'y'
+    use_symbols = input("Include symbols? (y/n): ").lower() == 'y'
+
+    password = generate_password(length, use_upper, use_lower, use_digits, use_symbols)
+    
+    if "Error" in password:
+        print(password)
+    else:
+        strength = check_strength(length, use_upper, use_lower, use_digits, use_symbols)
+        print(f"Generated Password: {password}")
+        print(f"Password Strength: {strength}")
+
