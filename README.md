@@ -9,15 +9,25 @@ In this collection, you’ll find 25 simple yet addictive Python games—each te
 📦 What's Inside
 Here’s a sneak peek of the games you’ll find:
 1️⃣ Snake Water Gun
+
 2️⃣ Rock Paper Scissors
+
 3️⃣ Number Guessing Game
+
 4️⃣ Dice Duel
+
 5️⃣ Coin Toss
+
 6️⃣ Hangman
+
 7️⃣ Word Scramble
+
 8️⃣ Tic Tac Toe
+
 9️⃣ Quiz Game
+
 🔟 Math Quiz
+
 ...and 15 more simple & addictive games!
 
 --------------
