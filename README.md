@@ -3,12 +3,14 @@
 -----------
 
 🚀 Learn Python. Play Games. Build Skills.
+
 Why read boring code examples when you can create your own playable games?
+
 In this collection, you’ll find 25 simple yet addictive Python games—each teaching you a new programming concept while keeping it fun.
 
 ----------------
 
-📦 What's Inside
+📦 What's inside
 
 Here’s a sneak peek of the games you’ll find:
 
@@ -69,6 +71,7 @@ Here’s a sneak peek of the games you’ll find:
 ----------------
 
 👩‍💻 Created by
+
 Anushika
 
 BSc Computer Science & Digitalisation | Passionate Python Learner
