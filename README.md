@@ -17,7 +17,6 @@ In this collection, you’ll find 25 simple yet addictive Python games—each te
 Here’s a sneak peek of the games you’ll find:
 
 1️⃣ Snake Water Gun
-
 2️⃣ Rock Paper Scissors
 
 3️⃣ Number Guessing Game
